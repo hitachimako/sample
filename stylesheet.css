@@ -63,10 +63,7 @@ body {
 }
  
 img {
-    height: 300px 300px;
-    display: inline-block;
-    vertical-align: top;
-    position: absolute;
-    right: 30px;
+  width: 250px;
+  height: 250px;
 }
 </style>
