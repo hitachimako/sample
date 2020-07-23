@@ -49,7 +49,7 @@ body {
     position: relative;
 }
  
-img {
+.resizeimg {
     height: 100vw;
     display: inline-block;
     vertical-align: top;
