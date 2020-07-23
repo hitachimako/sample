@@ -1,4 +1,12 @@
 <style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
 h1 {
     font-weight: normal;
     padding-bottom: 10px;
