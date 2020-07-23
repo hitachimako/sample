@@ -1,94 +1,72 @@
 <style>
+h1 {
+    font-weight: normal;
+    padding-bottom: 10px;
+    text-align: center;
+    position: relative;
+    margin: 0 0 30px 0;
+    letter-spacing: 5px;
+}
+ 
+p {
+    width: 50%;
+    line-height: 2;
+    display: inline-block;
+    background-color: #03A9F4;
+    padding: 20px;
+    position: relative;
+    z-index: 999;
+    margin: 50px 0 0;
+    color: #fff;
+    letter-spacing: 2px;
+}
+ 
+a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #F44336;
+    display: block;
+    padding: 15px 25px;
+    border-radius: 5px;
+    box-shadow: 0 4px 0 0 #9e2b23;
+    font-weight: bold;
+    width: 300px;
+    text-align: center;
+    margin: 110px auto 0;
+    letter-spacing: 2px;
+}
+ 
+h1::after {
+    content: "";
+    display: block;
+    border-bottom: solid 5px #2196F3;
+    position: absolute;
+    width: 100px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    bottom: -5px;
+}
+ 
+html {
+    background-color: #a8e4ff;
+}
+ 
 body {
-  font-family: "Avenir Next";
+    background-color: #fff;
+    padding: 30px 30px 30px;
+    max-width: 700px;
+    margin: 20px auto;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.18);
+    border-radius: 3px;
+    position: relative;
 }
-
-li {
-  list-style: none;
-}
-
-.header {
-  background-color: #26d0c9;
-  color: #fff;
-  height: 90px;
-}
-
-.header-logo {
-  float: left;
-  font-size: 36px;
-  padding: 20px 40px;
-}
-
-.header-list li {
-  float: left;
-  padding: 33px 20px;
-}
-
-.main {
-  padding: 100px 80px;
-}
-
-.copy-container h1 {
-  font-size: 140px;
-}
-
-.copy-container h2 {
-  font-size: 60px;
-}
-
-.copy-container span {
-  color: #ff4a4a;
-}
-
-.contents {
-  height: 500px;
-  margin-top: 100px;
-}
-
-.section-title {
-  border-bottom: 2px solid #dee7ec;
-  font-size: 28px;
-  padding-bottom: 15px;
-  margin-bottom: 50px;
-}
-
-.contents-item {
-  float: left;
-  margin-right: 40px;
-}
-
-.contents-item p {
-  font-size: 24px;
-  margin-top: 30px;
-}
-
-.contact-form {
-  padding-top: 100px;
-}
-
-/* inputとtextareaのCSSを指定してください */
-input, textarea {
-  width: 400px;
-  margin-top: 10px;
-  margin-bottom: 30px;
-  padding: 20px;
-  border: 1px solid #dee7ec;
-  font-size: 18px;
-}
-
-/* contact-submitのCSSを指定してください */
-.contact-submit{
-  background-color: #dee7ec;
-  color: #889eab;
-}
-
-
+ 
 img {
-    height: 300px ;
+    height: 300px 300px;
     display: inline-block;
     vertical-align: top;
     position: absolute;
     right: 30px;
 }
-
 </style>
