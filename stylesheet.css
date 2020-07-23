@@ -51,6 +51,7 @@ body {
  
 .resizeimg {
     height: 100vw;
+    height: 100vw;
     display: inline-block;
     vertical-align: top;
     position: absolute;
